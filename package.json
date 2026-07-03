@@ -1,17 +1,17 @@
 {
-  "name": "bot-mundial-v2",
-  "version": "2.0.0",
-  "description": "Bot de cartas del Mundial 2026 con sistema de colección, niveles y ranking",
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "Bot de Discord",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "engines": {
-    "node": ">=18.0.0"
+    "node": "20.x"
   },
   "dependencies": {
-    "discord.js": "^14.16.3",
+    "discord.js": "^14.16.0",
     "express": "^4.18.2",
-    "better-sqlite3": "^9.4.0"
+    "dotenv": "^16.4.5"
   }
 }
