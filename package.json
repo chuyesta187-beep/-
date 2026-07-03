@@ -1,7 +1,7 @@
 {
-  "name": "discord-bot",
+  "name": "nerox-bot",
   "version": "1.0.0",
-  "description": "Bot de Discord",
+  "description": "Bot Discord NEROX",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -10,8 +10,8 @@
     "node": "20.x"
   },
   "dependencies": {
-    "discord.js": "^14.16.0",
-    "express": "^4.18.2",
-    "dotenv": "^16.4.5"
+    "discord.js": "^14.15.3",
+    "express": "^4.19.2",
+    "better-sqlite3": "^11.0.0"
   }
 }
