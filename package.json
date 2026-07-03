@@ -6,19 +6,12 @@
   "scripts": {
     "start": "node index.js"
   },
-  "keywords": [
-    "discord-bot",
-    "futbol",
-    "cartas",
-    "mundial",
-    "2026"
-  ],
-  "author": "NEROX",
-  "license": "ISC",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "dependencies": {
     "discord.js": "^14.16.3",
     "express": "^4.18.2",
     "better-sqlite3": "^9.4.0"
-  },
-  "engines": {
-    "node": ">=18.0
+  }
+}
